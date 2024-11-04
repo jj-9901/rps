@@ -26,6 +26,7 @@ function compChoice(){
 
 function userChoice(){
     const entered= prompt("enter \"rock\", \"paper\" or, \"scissors\"");
+   entered=entered.toLowerCase();
     if(entered=="rock"||entered=="paper"||entered=="scissors"){
         return entered;
     }

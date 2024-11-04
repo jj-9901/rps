@@ -32,7 +32,7 @@ function userChoice(){
     }
     else{
         alert("can you not read??")
-        userChoice();
+        return userChoice();
     }
 }
 
